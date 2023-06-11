@@ -6,3 +6,5 @@ Task 2 - Writing a function that replaces an element of a list at a specific pos
 Task 3 - Writing a function that prints all integers of a list, in reverse order.
 Task 4 - Writing a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 Task 5 - Writing a function that removes all characters c and C from a string.
+Task 6 - Writing a function that prints a matrix of integers.
+Task 7 - Writing a function that adds 2 tuples.
