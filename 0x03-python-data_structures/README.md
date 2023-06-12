@@ -13,3 +13,4 @@ Task 9 - Writing a function that finds the biggest integer of a list.
 Task 10 - Writing a function that finds all multiples of 2 in a list.
 Task 11 - Writing a function that deletes the item at a specific position in a list.
 Task 12 - Switches the value of a and b.
+Task 13 - Writing a function in C that checks if a singly linked list is a palindrome.
