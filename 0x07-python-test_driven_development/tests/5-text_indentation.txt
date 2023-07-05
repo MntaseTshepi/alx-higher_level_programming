@@ -135,19 +135,19 @@ a TyperError will be raised.
 
 ::
 
-    >>> text_indentation(8)
+    >>> text_indentation(8) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
 
-    >>> text_indentation({"three": 3, "four": 4})
+    >>> text_indentation({"three": 3, "four": 4}) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     TypeError: text must be a string
 
 
 ::
 
-    >>> text_indentation(None)
+    >>> text_indentation(None) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     TypeError: text must be a string

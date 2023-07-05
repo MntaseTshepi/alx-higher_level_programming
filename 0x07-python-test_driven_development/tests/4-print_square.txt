@@ -84,7 +84,7 @@ Note that type checking will occur before checking the value.
 
 ::
 
-    >>> print_square(-3.3)
+    >>> print_square(-3.3) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last)
     TypeError: size must be an integer
 

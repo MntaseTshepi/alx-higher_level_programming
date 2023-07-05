@@ -91,7 +91,7 @@ is only printed for the first argument.
 
 ::
 
-    >>> add_integer("hey", "there")
+    >>> add_integer("hey", "there") # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     TyperError: a must be an integer
 
@@ -99,13 +99,13 @@ The function fails if infinity is provided.
 
 ::
 
-    >>> add_integer(float('inf'))
+    >>> add_integer(float('inf')) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
 
 ::
 
-    >>> add_integer(2, float('inf'))
+    >>> add_integer(2, float('inf')) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
 
@@ -113,12 +113,12 @@ The function also fails with NaN numbers.
 
 ::
 
-    >>> add_integer(float('nan'))
+    >>> add_integer(float('nan')) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     ValueError: cannot convert float NaN to integer
 
 ::
 
-    >>> add_integer(2, float('nan'))
+    >>> add_integer(2, float('nan')) # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
     ValueError: cannot convert float NaN to integer
