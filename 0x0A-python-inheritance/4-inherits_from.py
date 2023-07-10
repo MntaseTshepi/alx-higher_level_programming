@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""Defines a class inheritance function"""
+
 
 def inherits_from(obj, a_class):
-    """Defines a class inheritance function
+    """Represents a class inheritance function
 
     Args:
         obj (any): The object to check.
