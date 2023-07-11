@@ -19,7 +19,7 @@ def pascal_triangle(n):
 
         temp = [1]
         for j in range(len(tri) - 1):
-            temp.append(tri[1] + tri[j + 1])
+            temp.append(tri[j] + tri[j + 1])
         temp.append(1)
         triangle.append(temp)
     return triangle
