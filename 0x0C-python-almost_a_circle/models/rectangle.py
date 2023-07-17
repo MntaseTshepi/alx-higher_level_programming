@@ -131,6 +131,7 @@ class Rectangle(Base):
                 a += 1
 
         elif kwargs and len(kwargs) != 0:
+
             for k, v in kwargs.items():
                 if k == "id":
                     if v is None:
@@ -144,7 +145,7 @@ class Rectangle(Base):
                 elif k == "x":
                     self.x = v
                 elif k == "y":
-                    self.y
+                    self.y = v
 
     def to_dictionary(self):
         """Returns the dictionary rep of a rectangle."""
