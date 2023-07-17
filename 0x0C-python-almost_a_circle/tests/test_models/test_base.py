@@ -56,10 +56,10 @@ class TestBase_instantiation(unittest.TestCase):
             print(Base(12).__nb_instances)
 
     def test_str_id(self):
-        self.assertEqual("hey", Base("hey").id)
+        self.assertEqual("hello", Base("hello").id)
 
     def test_float_id(self):
-        self.assertEqual(6.5, Base(6.5).id)
+        self.assertEqual(5.5, Base(5.5).id)
 
     def test_complex_id(self):
         self.assertEqual(complex(5), Base(complex(5)).id)
@@ -71,10 +71,10 @@ class TestBase_instantiation(unittest.TestCase):
         self.assertEqual(True, Base(True).id)
 
     def test_list_id(self):
-        self.assertEqual([2, 3, 4], Base([2, 3, 4]).id)
+        self.assertEqual([1, 2, 3], Base([1, 2, 3]).id)
 
     def test_tuple_id(self):
-        self.assertEqual((2, 3), Base((2, 3)).id)
+        self.assertEqual((1, 2), Base((1, 2)).id)
 
     def test_set_id(self):
         self.assertEqual({1, 2, 3}, Base({1, 2, 3}).id)
